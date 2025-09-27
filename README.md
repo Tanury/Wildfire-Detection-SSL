@@ -27,13 +27,13 @@ FireNoFire_SSL/
 
 🧠 Training Workflow
 1. Self-Supervised Pretraining (SimCLR)
-      Contrastive learning on unlabeled dataset
-      Learns robust visual representations
+      - Contrastive learning on unlabeled dataset
+      - Learns robust visual representations
 2. Supervised Fine-Tuning
-      Freeze/unfreeze ResNet backbone
-      Train classifier head for Fire/No-Fire
+      - Freeze/unfreeze ResNet backbone
+      - Train classifier head for Fire/No-Fire
 3. Evaluation & Explainability
-      Compute metrics: accuracy, precision, recall, F1, ROC-AUC
-      Generate confusion matrix
-      Visualize Grad-CAM heatmaps
-      Inspect misclassified images
+      - Compute metrics: accuracy, precision, recall, F1, ROC-AUC
+      - Generate confusion matrix
+      - Visualize Grad-CAM heatmaps
+      - Inspect misclassified images
