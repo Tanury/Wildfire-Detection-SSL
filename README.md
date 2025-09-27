@@ -19,11 +19,11 @@ We first train a ResNet18 backbone with **SimCLR (contrastive pretraining)**, an
 
 ## 📂 Project Structure
 FireNoFire_SSL/
-- dataset/ # Fire and No-Fire images
-- models/ # Saved models/checkpoints
-- notebook.ipynb # Main Colab notebook
-- utils.py # Helper functions
-- README.md # Project documentation
+|- dataset/ # Fire and No-Fire images
+|- models/ # Saved models/checkpoints
+|- notebook.ipynb # Main Colab notebook
+|- utils.py # Helper functions
+|- README.md # Project documentation
 
 ---
 
